@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MovieMenuActivity">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="1"
+        android:rowCount="3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@mipmap/movie1" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="该片根据2018年5月14日四川航空3U8633航班机组成功处置特情真实事件改编，讲述了“中国民航英雄机组”成员与119名乘客遭遇极端险情，在万米高空直面强风、低温、座舱释压的多重考验。" />
+
+                <TextView
+                    android:id="@+id/movie1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:text="View More"
+                    android:textColor="#3D62DC" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@mipmap/movie2" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="该片根据迪士尼童话改编，讲述了魔女玛琳菲森和爱洛公主的关系受到爱洛公主未婚夫菲力王子的母亲英格瑞斯女王的挑战，从而影响到人类与精灵两个种族之间和平的故事" />
+
+                <TextView
+                    android:id="@+id/movie2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:text="View More"
+                    android:textColor="#3D62DC" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@mipmap/movie3" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="《利刃出鞘》是刘猛写的一部有关军旅生涯的连载小说，发布在起点中文网。该小说围绕神秘兵种——特种兵，讲述了一位来自大城市、具有高智商、高情商的艺术院校高材生，为了爱情走入军营，开始了一段充满传奇色彩的特种兵经历，并与他的战友们一起在绿色军营中经历着蜕变、感召和洗礼，逐渐感触到军人的坚韧灵魂，成为骁勇善战的优秀特种兵的故事。" />
+
+                <TextView
+                    android:id="@+id/movie3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:text="View More"
+                    android:textColor="#3D62DC" />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </GridLayout>
+</ScrollView>
